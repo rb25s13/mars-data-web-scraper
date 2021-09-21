@@ -37,7 +37,7 @@ def scrape_info():
     new_header = table.iloc[0]
     table = table[1:]
     table.columns = new_header
-    mars_dict['htmltable'] = table .to_html(classes='table table-striped')
+    mars_dict['htmltable'] = table .to_html(classes='table table-striped', index=False)
 
     # Store data in a dictionary
     astr_url = 'https://marshemispheres.com/'
