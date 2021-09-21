@@ -15,10 +15,9 @@ def home():
 
     # Find one record of data from the mongo database
     mars0_data = mongo.db.collection.find_one()
-    hemi_img = mars0_data['hemisphere_image_urls']
 
     # Return template and data
-    return render_template("index.html", martian=mars0_data, hemis=hemi_img)
+    return render_template("index.html", martian=mars0_data)
 
 
 # Route that will trigger the scrape function
