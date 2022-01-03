@@ -12,6 +12,21 @@
 <a href='https://marshemispheres.com/'>https://marshemispheres.com/</a><br />
 
 
+<details>
+<summary> Tools, Languages, & Libraries Utilized</summary>
+<li>Python</li>
+<li>Pandas</li>
+<li>PyMongo</li>
+<li>Flask API</li>
+<li>Splinter</li>
+<li>BeautifulSoup</li>
+<li>ChromeDriverManager</li>
+<li>HTML/CSS</li>
+<li>VS Code</li>
+<li>Jupyter Notebook</li>
+</details>
+
+
 ### Contents:
 
         /mission_to_mars - ipynb for scrape demo, app.py for flask app, scrape_mars.py for scraping app
